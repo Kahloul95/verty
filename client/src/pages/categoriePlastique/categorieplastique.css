@@ -1,0 +1,50 @@
+.userList {
+  flex: 4;
+  margin-top: 20px;
+  height: 400px;
+}
+
+.userList {
+  font-size: x-large;
+  font-family: -webkit-pictograph;
+}
+
+.userListUser {
+  display: flex;
+  align-items: center;
+}
+
+.userAddButton {
+  width: 80px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  border: none;
+  background-color: #3bb077;
+  border-radius: 5px;
+  cursor: pointer;
+  color:#ffffff;
+  font-size: 16px;
+}
+
+.button{
+  margin-bottom: 10px;
+  margin-left: 67rem;
+}
+.fornisseurAddButton:hover{
+  background-color: #D5EEBB;
+  color: rgb(0, 0, 0);
+}
+
+.userListEdit{
+  color: #3bb077;
+  cursor: pointer;
+  margin-left: 30px;
+  margin-top: 20px;
+
+}
+
+.userListDelete{
+    color: red;
+    cursor: pointer;
+    margin-left: 90px;
+}

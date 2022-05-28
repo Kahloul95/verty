@@ -1,0 +1,77 @@
+.newPlastic {
+  flex: 4;
+}
+
+.newPlasticcontainer{
+  flex: 2px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-top: 50px;
+
+}
+
+.newPlasticForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.newPlasticItem {
+  width: 400px;
+  display: grid;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.newPlasticItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.newPlasticItem > input {
+  height: 40px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.newPlasticItem > textarea {
+  height: 80px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.newPlasticItem > select {
+  height: 40px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+
+.PlasticCreateUpload{
+  display:flex;
+  align-items:center;
+}
+
+.PlasticUpdateIcon{
+  cursor: pointer;
+}
+
+.newPlasticButton{
+  width: 100px;
+  border: none;
+  background-color:mediumseagreen;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-left: 800px;
+  cursor: pointer;
+}

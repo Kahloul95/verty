@@ -1,0 +1,93 @@
+.plastique {
+  flex: 4;
+  padding: 100px;
+  padding-top: 50px;
+}
+
+.plastiqueTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plastiqueAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.plastiqueContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.plastiqueShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.plastiqueUpdate {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 20px;
+}
+
+.plastiqueShowTop {
+  display: flex;
+  align-items: center;
+}
+
+.plastiqueShowImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.plastiqueShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.plastiqueShowUsername {
+  font-weight: 600;
+}
+
+.plastiqueShowUserTitle {
+  font-weight: 300;
+}
+
+.plastiqueShowBottom{
+    margin-top: 20px;
+}
+
+.plastiqueShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+
+.plastiqueShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+
+.plastiqueShowIcon{
+    font-size: 16px !important;
+}
+
+.plastiqueShowInfoTitle{
+    margin-left: 10px;
+}

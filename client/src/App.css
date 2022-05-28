@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.productList .MuiCheckbox-colorPrimary.Mui-checked {
+    color: #D5EEBB;
+}
+.userList .MuiCheckbox-colorPrimary.Mui-checked {
+    color: #D5EEBB;
+}
+.orderList .MuiCheckbox-colorPrimary.Mui-checked {
+    color: #D5EEBB;
+}
+.plastiqueList .MuiCheckbox-colorPrimary.Mui-checked {
+    color: #D5EEBB;
+}

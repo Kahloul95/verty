@@ -1,0 +1,91 @@
+.plastique {
+  flex: 4;
+  padding: 20px;
+}
+
+.plastiqueTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plastiqueContainer {
+  display: flex;
+  margin-top: 20px;
+}
+.plastiqueUpdate {
+  flex: 4;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 20px;
+}
+.plastiqueUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.plastiqueUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.plastiqueUpdateItem{
+  width: 400px;
+  display: grid;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.plastiqueUpdateItem>label{
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.plastiqueUpdateItem>input{
+  height: 40px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.plastiqueUpdateItem > textarea {
+  height: 80px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.plastiqueUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.plastiqueUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+
+.plastiqueUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.plastiqueUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color:mediumseagreen;
+    color: white;
+    font-weight: 600;
+    margin-top: 700px;
+}
